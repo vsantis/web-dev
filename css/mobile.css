@@ -1,0 +1,55 @@
+.header {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 5rem;
+}
+
+.header__icon{
+  height: 4.5rem;
+  width: 4.5rem;
+}
+
+.section {
+  height: 60vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.section__title {
+  font-family: 'Montserrat', sans-serif;
+  color: whitesmoke;
+  font-weight: 600;
+  line-height: 2rem;
+  letter-spacing: 0.09rem;
+}
+
+.section__contact {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+.contact__button {
+  height: 2.5rem;
+  width: 80%;
+  border: 1px solid #80ffe8;
+  background-color: transparent;
+  color: #80ffe8;
+  font-weight: 600;
+  letter-spacing: 1.4px;
+  text-decoration: none;
+  line-height: 2.5rem;
+  text-align: center;
+}
+
+.contact__button:active {
+  background-color: #80ffe8;
+  border: 1px solid #2b193d;
+  color: #2b193d;
+  transition: 0.1s ease-in-out;
+}
