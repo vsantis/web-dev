@@ -1,0 +1,58 @@
+.header {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  margin-bottom: 5rem;
+}
+
+.header__icon{
+  height: 4.5rem;
+  width: 4.5rem;
+}
+
+.section {
+  height: 20vh;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: space-between;
+}
+
+.section__title {
+  font-family: 'Montserrat', sans-serif;
+  color: whitesmoke;
+  font-weight: 600;
+  line-height: 2.5rem;
+  letter-spacing: 0.15rem;
+  font-size: 2rem;
+}
+
+.section__contact {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+}
+
+.contact__button {
+  height: 3rem;
+  width: fit-content;
+  padding: 0.5rem 1rem;
+  border: 1px solid #80ffe8;
+  background-color: transparent;
+  color: #80ffe8;
+  font-weight: 600;
+  letter-spacing: 1.4px;
+  font-size: 1.25rem;
+  text-decoration: none;
+  line-height: 3rem;
+  text-align: center;
+}
+
+.contact__button:active {
+  background-color: #80ffe8;
+  border: 1px solid #2b193d;
+  color: #2b193d;
+  transition: 0.1s ease-in-out;
+}
