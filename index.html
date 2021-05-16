@@ -3,33 +3,75 @@
   <head>
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="description" content="Javascript Fullstack Developer">
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="shortcut icon" href="assets/images/icon.png" type="image/x-icon" />
     <link rel="stylesheet" href="css/all.css" />
-    <link rel="stylesheet" href="css/mobile.css" media="(min-width: 0) and (max-width: 767px)" />
-    <link
-      rel="stylesheet"
-      href="css/tablet.css"
-      media="(min-width: 768px) and (max-width: 1023px)"
-    />
-    <link rel="stylesheet" href="css/laptop.css" media="(min-width: 1024px)" />
-    <title>Victor - Fullstack Javascript Developer</title>
+    <link rel="stylesheet" href="css/mobile.css" media="(min-width: 0) and (max-width: 425px)" />
+    <title>bløg</title>
   </head>
   <body>
-    <header class="header">
-      <a href="index.html">
-        <img class="header__icon" src="assets/images/Logo.svg" alt="Victor" />
-      </a>
+    <header>
+      <nav class="navbar">
+        <div class="navbar__container">
+          <a class="navbar__brand" href="index.html">Bløg</a>
+          <button type="button" class="navbar__button" onclick="toggleButtonMenu()"><span class="navbar__toggler-icon"></span></button>
+        </div>
+        <div id="menu" class="navbar__menu-container">
+          <ul class="navbar__menu">
+            <li class="menu__item-container"><a href="index.html" class="menu__item">Home</a></li>
+            <li class="menu__item-container"><a href="#" class="menu__item">About</a></li>
+            <li class="menu__item-container"><a href="#" class="menu__item">Contact</a></li>
+          </ul>
+        </div>
+      </nav>
     </header>
-    <section class="section">
-      <h1 class="section__title">
-        Hola! Soy Victor,<br />
-        Desarrollador Javascript Fullstack
-      </h1>
-      <div class="section__contact">
-        <a href="contact.html" class="contact__button">HABLEMOS</a>
+    <main class="content">
+      <article class="article-card">
+        <section class="article-card__header">
+          <div class="header__heading">Lorem ipsum dolor sit amet.</div>
+          <div class="header__title">Lorem ipsum dolor sit amet consectetur.</div>
+        </section>
+        <section>
+          <img src="/assets/images/image-1.jpeg" alt="article image" class="image">
+        </section>
+        <section class="article-card__body">
+          Lorem ipsum dolor sit, amet consectetur adipisicing elit. Impedit consequuntur cumque
+          asperiores magni cupiditate fugiat! Aut, animi dicta.
+        </section>
+      </article>
+      <article class="article-card">
+        <section class="article-card__header">
+          <div class="header__heading">Lorem ipsum dolor sit amet.</div>
+          <div class="header__title">Lorem ipsum dolor sit amet consectetur.</div>
+        </section>
+        <section>
+          <img src="/assets/images/image-2.jpeg" alt="article image" class="image">
+        </section>
+        <section class="article-card__body">
+          Lorem ipsum dolor sit, amet consectetur adipisicing elit. Impedit consequuntur cumque
+          asperiores magni cupiditate fugiat! Aut, animi dicta.
+        </section>
+      </article>
+    </article>
+    <article class="article-card">
+      <section class="article-card__header">
+        <div class="header__heading">Lorem ipsum dolor sit amet.</div>
+        <div class="header__title">Lorem ipsum dolor sit amet consectetur.</div>
+      </section>
+      <section>
+        <img src="/assets/images/image-2.jpeg" alt="article image" class="image">
+      </section>
+      <section class="article-card__body">
+        Lorem ipsum dolor sit, amet consectetur adipisicing elit. Impedit consequuntur cumque
+        asperiores magni cupiditate fugiat! Aut, animi dicta.
+      </section>
+    </article>
+    </main>
+    <footer class="footer">
+      <div>
+        Lorem 2021<br>
+        Lorem ipsum dolor
       </div>
-    </section>
+    </footer>
   </body>
+  <script src="/js/code.js"></script>
 </html>
